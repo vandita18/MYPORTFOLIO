@@ -1,15 +1,213 @@
-<h1 class="home__title">
-Hi, I'm <br>
-<span class="home__title-color">Vandita Tripathi</span>
-</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<h3 class="home__subtitle">
-Frontend Developer | React Developer
-</h3>
+    <title>Vandita Tripathi | Frontend Developer</title>
 
-<p class="home__description">
-Building responsive web applications with React,
-TypeScript, JavaScript and REST APIs.
-</p>
+    <link rel="stylesheet" href="style.css">
 
-<a href="#work" class="button">View Projects</a>
+    <!-- Boxicons -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="l-header">
+    <nav class="nav bd-grid">
+        <div>
+            <a href="#" class="nav__logo">Vandita</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li><a href="#home" class="nav__link active-link">Home</a></li>
+                <li><a href="#about" class="nav__link">About</a></li>
+                <li><a href="#skills" class="nav__link">Skills</a></li>
+                <li><a href="#experience" class="nav__link">Experience</a></li>
+                <li><a href="#work" class="nav__link">Projects</a></li>
+                <li><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+            <i class='bx bx-menu'></i>
+        </div>
+    </nav>
+</header>
+
+<main class="l-main">
+
+<!-- HOME -->
+<section class="home bd-grid" id="home">
+
+    <div class="home__data">
+        <h1 class="home__title">
+            Hi, I'm <br>
+            <span class="home__title-color">Vandita Tripathi</span>
+        </h1>
+
+        <h3 class="home__subtitle">Frontend Developer | React Developer</h3>
+
+        <p class="home__description">
+            Building modern web applications using React, TypeScript,
+            JavaScript and REST APIs.
+        </p>
+
+        <a href="#work" class="button">View Projects</a>
+    </div>
+
+    <div class="home__img">
+        <img src="Image2.jpg" alt="">
+    </div>
+
+</section>
+
+<!-- ABOUT -->
+<section class="about section" id="about">
+
+    <h2 class="section-title">About</h2>
+
+    <div class="about__container bd-grid">
+
+        <div class="about__img">
+            <img src="Image3.jpg" alt="">
+        </div>
+
+        <div>
+            <p class="about__text">
+                I am a Frontend Developer based in Germany with experience in
+                Application Operations and IT Support.
+
+                I have worked with Vodafone India and IBM India supporting
+                enterprise applications and resolving production issues.
+
+                I now focus on building modern web applications using
+                React, TypeScript, JavaScript, HTML, CSS and REST APIs.
+
+                My key project is a German Learning App that includes
+                vocabulary flashcards, grammar modules and quiz features.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- SKILLS -->
+<section class="skills section" id="skills">
+
+    <h2 class="section-title">Skills</h2>
+
+    <div class="skills__container bd-grid">
+
+        <div class="skills__content">
+
+            <div class="skills__data">React</div>
+            <div class="skills__data">TypeScript</div>
+            <div class="skills__data">JavaScript</div>
+            <div class="skills__data">HTML5</div>
+            <div class="skills__data">CSS3</div>
+            <div class="skills__data">REST APIs</div>
+            <div class="skills__data">Git & GitHub</div>
+            <div class="skills__data">Oracle SQL</div>
+            <div class="skills__data">Jira</div>
+            <div class="skills__data">Zendesk</div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- EXPERIENCE -->
+<section class="experience section" id="experience">
+
+    <h2 class="section-title">Experience</h2>
+
+    <div class="bd-grid">
+
+        <div class="exp-card">
+            <h3>Application Operations Engineer</h3>
+            <p>Vodafone India</p>
+        </div>
+
+        <div class="exp-card">
+            <h3>System Support Specialist</h3>
+            <p>IBM India</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- PROJECTS -->
+<section class="work section" id="work">
+
+    <h2 class="section-title">Projects</h2>
+
+    <div class="work__container bd-grid">
+
+        <div class="work__img">
+            <a href="https://github.com/vandita18" target="_blank">
+                <h3>German Learning App ⭐</h3>
+                <img src="portfolio.png">
+            </a>
+        </div>
+
+        <div class="work__img">
+            <a href="https://vst-js.netlify.app/" target="_blank">
+                <h3>Travel Finance Manager</h3>
+                <img src="1.jpg">
+            </a>
+        </div>
+
+        <div class="work__img">
+            <a href="https://authenticindianrestaurant.netlify.app/" target="_blank">
+                <h3>Restaurant Website</h3>
+                <img src="3.jpg">
+            </a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- CONTACT -->
+<section class="contact section" id="contact">
+
+    <h2 class="section-title">Contact</h2>
+
+    <div class="contact__container bd-grid">
+
+        <div class="contact-links">
+            <a href="mailto:youremail@gmail.com">Email</a>
+            <a href="https://www.linkedin.com/">LinkedIn</a>
+            <a href="https://github.com/vandita18">GitHub</a>
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+
+    <p class="footer__title">Vandita Tripathi</p>
+
+    <div class="footer__social">
+        <a href="https://github.com/vandita18"><i class='bx bxl-github'></i></a>
+        <a href="https://linkedin.com"><i class='bx bxl-linkedin'></i></a>
+    </div>
+
+</footer>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
