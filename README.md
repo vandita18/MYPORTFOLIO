@@ -17,7 +17,7 @@ This project is a responsive portfolio landing page showcasing:
 
 ## Live Demo
 
-The site is deployed on GitHub Pages.
+https://vandita18.github.io/MYPORTFOLIO/
 
 ## Tech Stack
 
